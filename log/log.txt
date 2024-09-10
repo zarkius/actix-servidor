@@ -147,3 +147,1084 @@
 [2024-09-10T18:57:52Z INFO  actix_server::worker] shutting down idle worker
 [2024-09-10T18:57:52Z INFO  actix_server::worker] shutting down idle worker
 [2024-09-10T18:57:52Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:47Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T20:08:47Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T20:08:47Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T20:08:53Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T20:08:53Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:08:53Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:11:46Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T20:11:46Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T20:11:46Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T20:11:51Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 756 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000931
+[2024-09-10T20:11:51Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://127.0.0.1:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000150
+[2024-09-10T20:15:04Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T20:15:04Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:04Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:15:09Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T20:15:09Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T20:15:09Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T20:15:14Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 756 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000441
+[2024-09-10T20:16:00Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T20:16:00Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:05Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T20:16:05Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T20:16:05Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T20:16:07Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 756 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000383
+[2024-09-10T20:16:19Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T20:16:19Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:16:19Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:17:45Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T20:17:45Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T20:17:45Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T20:17:50Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 861 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000465
+[2024-09-10T20:18:00Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 861 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000315
+[2024-09-10T20:18:03Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T20:18:03Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T20:18:03Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-10T20:18:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:18:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:18:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:18:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:18:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:18:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:18:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:18:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:18:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:18:03Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-10T20:18:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:18:04Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T20:18:04Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T20:18:04Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T20:18:07Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 843 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000503
+[2024-09-10T20:19:31Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T20:19:31Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:31Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:19:33Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T20:19:33Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T20:19:33Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T20:19:35Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 921 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000526
+[2024-09-10T20:28:07Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 861 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000306
+[2024-09-10T20:32:27Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 861 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000387
+[2024-09-10T20:56:34Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T20:56:34Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T20:56:34Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:34:04Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T21:34:04Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T21:34:04Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T21:34:09Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 861 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000674
+[2024-09-10T21:35:55Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T21:35:55Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T21:35:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:31:13Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:31:13Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:31:13Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:31:51Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 861 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000365
+[2024-09-10T22:31:51Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://127.0.0.1:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000664
+[2024-09-10T22:32:07Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 861 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000375
+[2024-09-10T22:32:11Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 881 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000429
+[2024-09-10T22:32:13Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 861 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000358
+[2024-09-10T22:35:01Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:01Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:35:08Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:35:08Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:35:08Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:35:11Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 881 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000418
+[2024-09-10T22:35:16Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 861 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000371
+[2024-09-10T22:36:10Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:36:10Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:36:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:38Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:37:38Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:37:38Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:37:41Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 13.416ms
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:37:41Z INFO  sqlx::query] SELECT * FROM users …; rows affected: 0, rows returned: 0, elapsed: 81.385ms
+    
+    SELECT
+      *
+    FROM
+      users
+    WHERE
+      id = ?
+    
+[2024-09-10T22:37:42Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 800.720µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:37:42Z INFO  sqlx::query] SELECT * FROM users …; rows affected: 0, rows returned: 0, elapsed: 9.998ms
+    
+    SELECT
+      *
+    FROM
+      users
+    WHERE
+      id = ?
+    
+[2024-09-10T22:37:42Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 1.308ms
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:37:42Z INFO  sqlx::query] SELECT * FROM users …; rows affected: 0, rows returned: 0, elapsed: 6.252ms
+    
+    SELECT
+      *
+    FROM
+      users
+    WHERE
+      id = ?
+    
+[2024-09-10T22:37:42Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 906.316µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:37:42Z INFO  sqlx::query] SELECT * FROM users …; rows affected: 0, rows returned: 0, elapsed: 8.056ms
+    
+    SELECT
+      *
+    FROM
+      users
+    WHERE
+      id = ?
+    
+[2024-09-10T22:37:47Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 1.283ms
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:37:47Z INFO  sqlx::query] SELECT * FROM users …; rows affected: 0, rows returned: 0, elapsed: 7.653ms
+    
+    SELECT
+      *
+    FROM
+      users
+    WHERE
+      id = ?
+    
+[2024-09-10T22:37:49Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:49Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:49Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:37:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:11Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:39:11Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:39:11Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:39:18Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 814.205µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:39:18Z INFO  sqlx::query] SELECT * FROM users …; rows affected: 0, rows returned: 0, elapsed: 4.051ms
+    
+    SELECT
+      *
+    FROM
+      users
+    WHERE
+      id = ?
+    
+[2024-09-10T22:39:39Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:39:39Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:39:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:31Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:40:31Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:40:31Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:40:34Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 669.666µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:40:34Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 898.592µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:40:36Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 1.590ms
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:40:36Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 4.241ms
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:40:36Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 1.427ms
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:40:36Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 2.226ms
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:40:36Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 1.444ms
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:40:36Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 1.882ms
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:40:38Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:40:38Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:41:31Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:41:31Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:41:31Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:41:36Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 807.763µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:41:36Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 900.847µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:41:36Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 861 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.046059
+[2024-09-10T22:42:10Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 1.053ms
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:42:10Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 645.361µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:42:10Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 881 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.042334
+[2024-09-10T22:42:13Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:42:13Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:42:13Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-10T22:42:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:13Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-10T22:42:15Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:42:15Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:42:15Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:42:17Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 605.928µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:42:17Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 813.414µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:42:17Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 896 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.047001
+[2024-09-10T22:42:28Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:42:28Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:28Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:30Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:42:30Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:42:30Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:42:32Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 903.832µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:42:32Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 981.196µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:42:33Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 853.819µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:42:33Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 649.719µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:42:33Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 807.522µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:42:33Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 1.104ms
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:42:33Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 864.910µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:42:33Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 1.061ms
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:42:38Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 860.922µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:42:38Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 1.003ms
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:42:50Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:42:50Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:42:50Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:00Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:43:00Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:43:00Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:43:05Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 779.601µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:43:05Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 865.701µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:43:05Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 915 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.043709
+[2024-09-10T22:43:20Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:43:20Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:20Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:22Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:43:22Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:43:22Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:43:24Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 938.647µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:43:24Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 745.537µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:43:24Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 892 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.047652
+[2024-09-10T22:43:40Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:43:40Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:43:42Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:43:42Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:43:42Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:43:45Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 616.367µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:43:45Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 990.764µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:43:45Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 916 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.045727
+[2024-09-10T22:44:00Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 633.820µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:44:00Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 0, elapsed: 880.719µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:44:01Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 827.210µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:44:01Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 0, elapsed: 527.241µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:44:01Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 1.121ms
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:44:01Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 0, elapsed: 834.984µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:44:01Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 747.531µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:44:01Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 0, elapsed: 602.141µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:44:02Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:44:02Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:04Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:44:04Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:44:04Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:44:06Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 893.272µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:44:06Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 0, elapsed: 555.123µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:44:13Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:44:13Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:13Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:14Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:44:14Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:44:14Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:44:16Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 1.188ms
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:44:16Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 0, elapsed: 756.067µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:44:17Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 671.850µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:44:17Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 0, elapsed: 601.429µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:44:17Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 786.042µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:44:17Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 0, elapsed: 776.335µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:44:17Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 840.624µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:44:17Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 0, elapsed: 547.269µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:44:51Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T22:44:53Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T22:44:53Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T22:44:53Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T22:44:55Z INFO  sqlx::query] SET sql_mode=(SELECT CONCAT(@@sql_mode, ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION')),time_zone='+00:00',NAMES …; rows affected: 0, rows returned: 0, elapsed: 852.517µs
+    
+    SET
+      sql_mode =(
+        SELECT
+          CONCAT(
+            @ @sql_mode,
+            ',PIPES_AS_CONCAT,NO_ENGINE_SUBSTITUTION'
+          )
+      ),
+      time_zone = '+00:00',
+      NAMES utf8mb4 COLLATE utf8mb4_unicode_ci;
+    
+[2024-09-10T22:44:55Z INFO  sqlx::query] SELECT * FROM registrodeusuarios …; rows affected: 0, rows returned: 1, elapsed: 879.837µs
+    
+    SELECT
+      *
+    FROM
+      registrodeusuarios
+    WHERE
+      id = ?
+    
+[2024-09-10T22:44:55Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.044916
+[2024-09-10T23:03:18Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T23:03:18Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
