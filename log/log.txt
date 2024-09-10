@@ -1228,3 +1228,24 @@
 [2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
 [2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
 [2024-09-10T23:03:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:18:55Z INFO  actix_server::builder] starting 12 workers
+[2024-09-10T23:18:55Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-10T23:18:55Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-10T23:19:06Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.140842
+[2024-09-10T23:19:09Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.044424
+[2024-09-10T23:19:10Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.036868
+[2024-09-10T23:19:10Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.032277
+[2024-09-10T23:19:15Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-10T23:19:15Z INFO  actix_server::accept] accept thread stopped
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:19:15Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-10T23:19:15Z INFO  actix_server::worker] shutting down idle worker
