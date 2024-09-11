@@ -227,8 +227,8 @@ async fn main() {
         .open("log/log.txt")
         .unwrap();
 
-    let client_id = ClientId::new("1004326199624-vbh9kljlvnkbcssqi2nahb7c4rmlbcdd.apps.googleusercontent.com".to_string());
-    let client_secret = ClientSecret::new("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".to_string());
+    let client_id = ClientId::new("client".to_string());
+    let client_secret = ClientSecret::new("secret".to_string());
     let auth_url = AuthUrl::new("https://accounts.google.com/o/oauth2/auth".to_string()).expect("Invalid authorization endpoint URL");
     let token_url = TokenUrl::new("https://oauth2.googleapis.com/token".to_string()).expect("Invalid token URL");
 
