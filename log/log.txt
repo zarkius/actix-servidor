@@ -3806,3 +3806,19 @@
 [2024-09-12T02:18:36Z INFO  actix_server::worker] shutting down idle worker
 [2024-09-12T02:18:36Z INFO  actix_server::worker] shutting down idle worker
 [2024-09-12T02:18:36Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T02:27:00Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T02:27:00Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T02:27:00Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T02:27:05Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1032 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.168514
+[2024-09-12T02:27:06Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /templates/etc/js/comunes.js HTTP/1.1" 304 0 "http://127.0.0.1:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.006139
+[2024-09-12T02:27:06Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://127.0.0.1:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.114783
+[2024-09-12T02:27:10Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T02:27:10Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T02:27:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T02:27:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T02:27:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T02:27:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T02:27:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T02:27:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T02:27:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T02:27:10Z INFO  actix_server::worker] shutting down idle worker
