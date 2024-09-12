@@ -14,24 +14,12 @@
     <p>el usuario es {{registrodeusuarios.name}}</p>
     <p>el email es {{registrodeusuarios.email}}</p>
 
-    <form action="/registro" method="post">
-        <input type="text" name="name" id="name">
-        <label for="text">Añade tu comentario: maximo 600 caracteres</label>
-        <button type="submit">Enviar</button>
-<script nonce="{{nonce}}">
-$(document).ready(function() {
-    $.get("/obtener_comentarios", function(data) {
+    <script src="./templates/etc/js/comunes.js" nonce="{{nonce}}">
 
-        const comentariosContainer = $('<div></div>');
-        for (let i = 0; i < data.length; i++) {
-            const comentario = data[i];
-            const comentarioElement = $('<p></p>').text(JSON.stringify(comentario));
-            comentariosContainer.append(comentarioElement);
-        }
-        $('body').append(comentariosContainer);
-    });
-});
-</script>
+    </script>
+
+
+
 
 </body>
 </html>

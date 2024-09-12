@@ -1,22 +1,23 @@
 use actix_session::{CookieSession, Session};
-use actix_web::http::header::{HeaderName, HeaderValue};
-use actix_web::dev::{Service, ServiceRequest, ServiceResponse, Transform};
-use actix_web::{web, App, HttpRequest, HttpResponse, HttpServer, Responder, Error, HttpMessage, middleware::Logger};
-use futures::future::{ok, Ready};
-use futures::Future;
+use actix_web::{web, App, HttpRequest, HttpResponse, HttpServer, Responder, HttpMessage, middleware::Logger};
 use oauth2::basic::BasicClient;
 use oauth2::{AuthUrl, ClientId, ClientSecret, RedirectUrl, TokenResponse, TokenUrl};
-use rand::Rng;
 use ::reqwest::Client;
 use serde::Deserialize;
 use reqwest::Error as ReqwestError;
 use sqlx::{MySqlPool, Row};
-use std::pin::Pin;
-use std::task::{Context, Poll};
 use tera::{Tera, Value};
 use std::fs::{OpenOptions, create_dir_all};
 use log::LevelFilter;
 use env_logger::Builder;
+use actix_files as fs;
+use generador_de_nonces::NonceMiddleware;
+
+//MODULOS
+mod generador_de_nonces;
+
+
+
 
 
 #[derive(Debug, Deserialize)]
@@ -108,69 +109,6 @@ async fn auth_callback(
         Ok(user_info)
     }
 
-//DEFINIMOS MIDDLEWARE QUE GENERA UN NONCE ALEATORIO Y LO INSERTA EN EL CONTEXTO DE LA PETICIÓN
-struct NonceMiddleware;
-
-impl<S, B> Transform<S, ServiceRequest> for NonceMiddleware
-where
-    S: Service<ServiceRequest, Response = ServiceResponse<B>, Error = Error>,
-    S::Future: 'static,
-    B: 'static,
-{
-    type Response = ServiceResponse<B>;
-    type Error = Error;
-    type Transform = NonceMiddlewareService<S>;
-    type InitError = ();
-    type Future = Ready<Result<Self::Transform, Self::InitError>>;
-
-    fn new_transform(&self, service: S) -> Self::Future {
-        ok(NonceMiddlewareService { service })
-    }
-}
-
-//DEFINIMOS UNA ESTRUCTURA QUE CONTIENE EL SERVICIO Y AÑADE EL NONCE AL HEADER DE LA RESPUESTA
-
-struct NonceMiddlewareService<S> {
-    service: S,
-}
-
-impl<S, B> Service<ServiceRequest> for NonceMiddlewareService<S>
-where
-    S: Service<ServiceRequest, Response = ServiceResponse<B>, Error = Error>,
-    S::Future: 'static,
-    B: 'static,
-{
-    type Response = ServiceResponse<B>;
-    type Error = Error;
-    type Future = Pin<Box<dyn Future<Output = Result<Self::Response, Self::Error>>>>;
-
-    fn poll_ready(&self, cx: &mut Context<'_>) -> Poll<Result<(), Self::Error>> {
-        self.service.poll_ready(cx)
-    }
-
-    fn call(&self, req: ServiceRequest) -> Self::Future {
-        let nonce: String = generate_nonce();
-        req.extensions_mut().insert(nonce.clone());
-        let fut: <S as Service<ServiceRequest>>::Future = self.service.call(req);
-        Box::pin(async move {
-            let mut res: ServiceResponse<B> = fut.await?;
-            // Ignorar el nonce en las rutas /oauth/login y /oauth/callback
-            if res.request().path() != "/oauth/login" && res.request().path() != "/oauth/callback" {
-                res.headers_mut().insert(
-                    HeaderName::from_static("content-security-policy"),
-                    HeaderValue::from_str(&format!("script-src 'nonce-{}'", nonce)).unwrap(),
-                );
-            }
-            Ok(res)
-        })
-    }
-}
-
-//FUNCION QUE GENERA UN NONCE ALEATORIO
-fn generate_nonce() -> String {
-    let nonce: [u8; 16] = rand::thread_rng().gen();
-    base64::encode(&nonce)
-}
 
 //DEFINIMOS LAS RUTAS Y SUS RESPUESTAS
 
@@ -280,12 +218,15 @@ async fn main() {
             .app_data(web::Data::new(client.clone()))
             .wrap(Logger::default())
             .wrap(NonceMiddleware)
+    
+            .service(fs::Files::new("/templates", "./templates").show_files_listing())
             .wrap(CookieSession::signed(&[0; 32]).secure(false)) // Configurar la sesión
             .service(web::resource("/").route(web::get().to(index)))
             .service(web::resource("/auth/login").route(web::get().to(auth_login)))
             .service(web::resource("/auth/callback").route(web::get().to(auth_callback)))
             .service(web::resource("/user").route(web::get().to(get_user_info)))
             .service(web::resource("/obtener_comentarios").route(web::get().to(obtener_comentarios)))
+            
     })
     .bind("127.0.0.1:8080")
     .unwrap()
