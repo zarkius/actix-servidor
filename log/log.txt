@@ -2481,3 +2481,676 @@
 [2024-09-11T03:01:46Z INFO  actix_server::worker] shutting down idle worker
 [2024-09-11T03:01:46Z INFO  actix_server::worker] shutting down idle worker
 [2024-09-11T03:01:46Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T22:54:26Z INFO  actix_server::builder] starting 12 workers
+[2024-09-11T22:54:26Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-11T22:54:26Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-11T22:54:41Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 950 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.050643
+[2024-09-11T22:54:41Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://127.0.0.1:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000549
+[2024-09-11T22:55:18Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034760
+[2024-09-11T22:55:20Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/login HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.009321
+[2024-09-11T22:55:21Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/login HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000672
+[2024-09-11T22:55:21Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=0OvdZX5soXAlo5G3A04FjA&code=4%2F0AQlEd8wo3clQptT41ghG_oQ6QjDli-rofZfwJQ-9NtBceuMO61Hr_Td-6B5hD5_BZXbIkg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1" 400 36 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000298
+[2024-09-11T22:55:21Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://localhost:8080/auth/callback?state=0OvdZX5soXAlo5G3A04FjA&code=4%2F0AQlEd8wo3clQptT41ghG_oQ6QjDli-rofZfwJQ-9NtBceuMO61Hr_Td-6B5hD5_BZXbIkg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000184
+[2024-09-11T22:55:23Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=0OvdZX5soXAlo5G3A04FjA&code=4%2F0AQlEd8wo3clQptT41ghG_oQ6QjDli-rofZfwJQ-9NtBceuMO61Hr_Td-6B5hD5_BZXbIkg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1" 400 36 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000334
+[2024-09-11T22:55:35Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/login HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000325
+[2024-09-11T22:55:37Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=EU8JbcM3ygBisnXpiyHmPA&code=4%2F0AQlEd8wDTVAEKS0bG8_QPgAOazXm4wMIE11rGScIE1UhZaC8bkddxUDSa9-BNuRE5sZn8g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.790370
+[2024-09-11T22:55:37Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.606987
+[2024-09-11T22:55:53Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/login HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000562
+[2024-09-11T22:55:54Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=PJXPU2BnC8ep2GEK157_pA&code=4%2F0AQlEd8zi7vY-nFJMzLvvufE7goKaeufHBIP6rLIgDQls_AOdeOkHbH5dY3kDeue5t_-ytg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid&authuser=0&prompt=none HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.611709
+[2024-09-11T22:55:54Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.815292
+[2024-09-11T22:56:44Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.643516
+[2024-09-11T22:56:44Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://localhost:8080/user" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000259
+[2024-09-11T22:56:53Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033765
+[2024-09-11T22:56:57Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 950 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033541
+[2024-09-11T22:56:57Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 950 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034611
+[2024-09-11T22:57:03Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.036000
+[2024-09-11T22:57:04Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034995
+[2024-09-11T22:57:07Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/login HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000598
+[2024-09-11T22:58:53Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=z-SMZHodZ4KHtE4dKV7AbA&code=4%2F0AQlEd8wgeii26PBOi2jCUYknwRKsTdvwecxlQo222RPq1ELuwk6WS3YlbwG-5-xSp8PGyA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent HTTP/1.1" 302 0 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 2.246806
+[2024-09-11T22:58:54Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 1.053510
+[2024-09-11T22:59:39Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 5.461161
+[2024-09-11T22:59:43Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 401 21 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000417
+[2024-09-11T22:59:50Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=z-SMZHodZ4KHtE4dKV7AbA&code=4%2F0AQlEd8z6U8perq26VR60PB_Up8NOYhDYv6_FgAcWSKFpbTw70ZaqFE3jSbCy-9XKuJv8vA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent HTTP/1.1" 400 36 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000439
+[2024-09-11T22:59:59Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=z-SMZHodZ4KHtE4dKV7AbA&code=4%2F0AQlEd8z6U8perq26VR60PB_Up8NOYhDYv6_FgAcWSKFpbTw70ZaqFE3jSbCy-9XKuJv8vA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent HTTP/1.1" 400 36 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000238
+[2024-09-11T23:00:07Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=z-SMZHodZ4KHtE4dKV7AbA&code=4%2F0AQlEd8z6U8perq26VR60PB_Up8NOYhDYv6_FgAcWSKFpbTw70ZaqFE3jSbCy-9XKuJv8vA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent HTTP/1.1" 400 36 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000246
+[2024-09-11T23:00:29Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=z-SMZHodZ4KHtE4dKV7AbA&code=4%2F0AQlEd8z6U8perq26VR60PB_Up8NOYhDYv6_FgAcWSKFpbTw70ZaqFE3jSbCy-9XKuJv8vA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent HTTP/1.1" 400 36 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000218
+[2024-09-11T23:00:38Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=z-SMZHodZ4KHtE4dKV7AbA&code=4%2F0AQlEd8z6U8perq26VR60PB_Up8NOYhDYv6_FgAcWSKFpbTw70ZaqFE3jSbCy-9XKuJv8vA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent HTTP/1.1" 400 36 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000235
+[2024-09-11T23:00:41Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=z-SMZHodZ4KHtE4dKV7AbA&code=4%2F0AQlEd8x_BElYICeemUQLRock79v97-Va0EKGRjEVOT1Ky-10H5kCjormKL2dRWK2qUuw6w&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent HTTP/1.1" 400 36 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000217
+[2024-09-11T23:00:49Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 970 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.037009
+[2024-09-11T23:00:55Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/login HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000365
+[2024-09-11T23:00:56Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=VlciakGrIIEOW6am2O0-Yg&code=4%2F0AQlEd8zzX3raRhAGRDRDzlGH4ZOISnIi1K14DCtG_kFCydlKQeHt7rN8LwoTTpPEJC0-Dg&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email+openid&authuser=0&prompt=none HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.816689
+[2024-09-11T23:00:57Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.610493
+[2024-09-11T23:03:26Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 401 21 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000400
+[2024-09-11T23:03:35Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033254
+[2024-09-11T23:03:39Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.031657
+[2024-09-11T23:03:39Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.037011
+[2024-09-11T23:03:41Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033083
+[2024-09-11T23:03:41Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033053
+[2024-09-11T23:03:44Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 950 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034488
+[2024-09-11T23:03:47Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/login HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000638
+[2024-09-11T23:03:49Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=Ksh4FnX5OxVk1jJ5Uo9ykA&code=4%2F0AQlEd8xBoM7AnJifqMlCLm6XUxSm6s5bgZOIqUMmpbARrcDUYxIT1r0RXrDAFqlLhyH52g&scope=email+profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=none HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.641534
+[2024-09-11T23:03:49Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.245990
+[2024-09-11T23:04:10Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.032368
+[2024-09-11T23:04:17Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.031313
+[2024-09-11T23:04:27Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/login HTTP/1.1" 302 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000475
+[2024-09-11T23:04:59Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /auth/callback?state=lKrdedhD1bWdFL5ko88A1w&code=4%2F0AQlEd8xWYXmXOyqSPfzXfQ8ieGR6hluiSRvQJWK49FpLb11nK96JclWGjmNyubVeyOsALA&scope=email+profile+openid+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.profile+https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&authuser=0&prompt=consent HTTP/1.1" 302 0 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.636629
+[2024-09-11T23:04:59Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "https://accounts.google.com/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.274480
+[2024-09-11T23:49:45Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:49:45Z INFO  actix_server::accept] accept thread stopped
+[2024-09-11T23:50:28Z INFO  actix_server::builder] starting 12 workers
+[2024-09-11T23:50:28Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-11T23:50:28Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-11T23:50:33Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.822603
+[2024-09-11T23:50:33Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.761186
+[2024-09-11T23:50:34Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /user HTTP/1.1" 200 293 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.557732
+[2024-09-11T23:50:38Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 912 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.089098
+[2024-09-11T23:51:03Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-11T23:51:03Z INFO  actix_server::accept] accept thread stopped
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:03Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:51:07Z INFO  actix_server::builder] starting 12 workers
+[2024-09-11T23:51:07Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-11T23:51:07Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-11T23:51:19Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.046226
+[2024-09-11T23:52:40Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-11T23:52:40Z INFO  actix_server::accept] accept thread stopped
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:52:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:56:19Z INFO  actix_server::builder] starting 12 workers
+[2024-09-11T23:56:19Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-11T23:56:19Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-11T23:56:22Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.068870
+[2024-09-11T23:56:24Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033555
+[2024-09-11T23:56:25Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.037705
+[2024-09-11T23:57:58Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 930 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.043631
+[2024-09-11T23:58:00Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-11T23:58:00Z INFO  actix_server::accept] accept thread stopped
+[2024-09-11T23:58:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:58:00Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-11T23:58:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:58:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:58:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:58:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:58:00Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-11T23:58:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:58:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:58:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:58:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:58:00Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-11T23:58:02Z INFO  actix_server::builder] starting 12 workers
+[2024-09-11T23:58:02Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-11T23:58:02Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-11T23:58:04Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1169 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.042070
+[2024-09-11T23:58:53Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.032918
+[2024-09-12T00:02:02Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:02:02Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:02:09Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:02:09Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:02:09Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:02:10Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.043754
+[2024-09-12T00:02:11Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.037799
+[2024-09-12T00:02:11Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035543
+[2024-09-12T00:10:36Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.040815
+[2024-09-12T00:10:39Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:10:39Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:10:39Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-12T00:10:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:10:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:10:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:10:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:10:39Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-12T00:10:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:10:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:10:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:10:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:10:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:10:39Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:10:48Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:10:48Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:10:48Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:10:56Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.038070
+[2024-09-12T00:10:59Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.039239
+[2024-09-12T00:10:59Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035821
+[2024-09-12T00:11:14Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /recuperar_comentarios HTTP/1.1" 404 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000235
+[2024-09-12T00:11:40Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:11:40Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:11:40Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:11:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:13Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:12:13Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:12:13Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:12:14Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /comentarios HTTP/1.1" 404 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000277
+[2024-09-12T00:12:17Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /comentarios HTTP/1.1" 404 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000239
+[2024-09-12T00:12:19Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.042832
+[2024-09-12T00:12:27Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.039312
+[2024-09-12T00:12:28Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034039
+[2024-09-12T00:12:43Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1189 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034873
+[2024-09-12T00:12:49Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:12:49Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:49Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:12:50Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:12:50Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:12:50Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:12:55Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.043636
+[2024-09-12T00:12:56Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1169 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035388
+[2024-09-12T00:12:56Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.036908
+[2024-09-12T00:12:57Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.037506
+[2024-09-12T00:14:08Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:14:08Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:08Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:14:16Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:14:16Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:14:16Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:14:21Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.038701
+[2024-09-12T00:14:22Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033695
+[2024-09-12T00:14:24Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035382
+[2024-09-12T00:23:09Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1169 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.036393
+[2024-09-12T00:23:18Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:23:18Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:18Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:23:26Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:23:26Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:23:26Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:23:27Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2262 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.042776
+[2024-09-12T00:23:28Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2242 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034404
+[2024-09-12T00:23:37Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /comentario HTTP/1.1" 404 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000201
+[2024-09-12T00:23:41Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /comentarios HTTP/1.1" 404 0 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000211
+[2024-09-12T00:24:43Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:24:43Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:24:44Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:24:44Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:24:44Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:24:53Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2231 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.037492
+[2024-09-12T00:24:55Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2231 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.040705
+[2024-09-12T00:25:10Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:25:10Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:10Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:25:11Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:25:11Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:25:11Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:25:15Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2264 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034786
+[2024-09-12T00:25:15Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2314 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035504
+[2024-09-12T00:25:26Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2264 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.040339
+[2024-09-12T00:25:26Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2264 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.036173
+[2024-09-12T00:25:53Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2314 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.040133
+[2024-09-12T00:25:53Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2264 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035257
+[2024-09-12T00:28:35Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:28:35Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:35Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:28:42Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:28:42Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:28:42Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:28:47Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2308 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.038665
+[2024-09-12T00:28:47Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 404 0 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000193
+[2024-09-12T00:29:45Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:29:45Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:29:45Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:30:20Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:30:20Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:30:20Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:30:23Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2283 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.043457
+[2024-09-12T00:30:23Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 500 96 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000275
+[2024-09-12T00:30:52Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2283 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.043108
+[2024-09-12T00:30:52Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 500 96 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000407
+[2024-09-12T00:33:11Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:33:11Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:11Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:18Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:33:18Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:33:18Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:33:21Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2283 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.041831
+[2024-09-12T00:33:21Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 500 96 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000344
+[2024-09-12T00:33:41Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 2308 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.039474
+[2024-09-12T00:33:41Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 500 96 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000270
+[2024-09-12T00:33:42Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:33:42Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:33:42Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:42Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:42Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:42Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:42Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-12T00:33:42Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-12T00:33:42Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:42Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:42Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:42Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:42Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:42Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:33:43Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:33:43Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:33:43Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:33:50Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1169 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.042180
+[2024-09-12T00:33:54Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1149 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.038440
+[2024-09-12T00:34:26Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:34:26Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:27Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:34:27Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:34:27Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:34:31Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1316 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.041787
+[2024-09-12T00:34:32Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1316 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.037706
+[2024-09-12T00:34:33Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1316 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035130
+[2024-09-12T00:34:40Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:34:40Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:40Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:34:42Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:34:42Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:34:42Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:34:53Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1337 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.036064
+[2024-09-12T00:34:54Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1337 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.032428
+[2024-09-12T00:37:55Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:37:55Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:37:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:03Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:38:03Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:38:03Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:38:05Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1317 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035321
+[2024-09-12T00:38:06Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1317 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034565
+[2024-09-12T00:38:08Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1317 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.041292
+[2024-09-12T00:38:14Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 500 96 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000311
+[2024-09-12T00:38:55Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:38:55Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:38:55Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:39:02Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:39:02Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:39:02Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:39:05Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.054641
+[2024-09-12T00:39:11Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1317 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035415
+[2024-09-12T00:39:12Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1317 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.036433
+[2024-09-12T00:40:45Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1317 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033916
+[2024-09-12T00:40:47Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:40:47Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:40:47Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:40:47Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:40:47Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:40:47Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:40:47Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-12T00:40:47Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:40:47Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:40:47Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:40:47Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:40:47Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:40:47Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:40:47Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-12T00:40:48Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:40:48Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:40:48Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:40:53Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1388 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.039585
+[2024-09-12T00:40:54Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1388 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034149
+[2024-09-12T00:40:55Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1388 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034050
+[2024-09-12T00:40:56Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1408 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.039051
+[2024-09-12T00:40:59Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1388 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.038015
+[2024-09-12T00:41:14Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:41:14Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:41:15Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:41:15Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:41:15Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:41:17Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1421 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.042148
+[2024-09-12T00:41:17Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035139
+[2024-09-12T00:42:07Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:07Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:42:08Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:42:08Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:42:08Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:42:09Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1915 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.042904
+[2024-09-12T00:42:09Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.037198
+[2024-09-12T00:42:21Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:42:21Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:21Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:22Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:42:22Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:42:22Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:42:25Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1641 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.041447
+[2024-09-12T00:42:25Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035540
+[2024-09-12T00:42:54Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:42:54Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:54Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:42:56Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:42:56Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:42:56Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:43:00Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1646 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.038241
+[2024-09-12T00:43:00Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034812
+[2024-09-12T00:43:01Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1621 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.038745
+[2024-09-12T00:43:01Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.046055
+[2024-09-12T00:43:14Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:43:14Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:14Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:16Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:43:16Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:43:16Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:43:17Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1655 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.042526
+[2024-09-12T00:43:17Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035653
+[2024-09-12T00:43:18Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1630 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.040237
+[2024-09-12T00:43:18Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033760
+[2024-09-12T00:43:32Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:43:32Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:32Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:33Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:43:33Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:43:33Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:43:36Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1638 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.039176
+[2024-09-12T00:43:36Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.037659
+[2024-09-12T00:43:37Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1638 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034917
+[2024-09-12T00:43:37Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.040218
+[2024-09-12T00:43:37Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1638 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034081
+[2024-09-12T00:43:37Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.047031
+[2024-09-12T00:43:43Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:43:43Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:43Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:45Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:43:45Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:43:45Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:43:47Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1639 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.039056
+[2024-09-12T00:43:47Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034586
+[2024-09-12T00:43:47Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1639 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.032546
+[2024-09-12T00:43:47Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034726
+[2024-09-12T00:43:48Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1664 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034417
+[2024-09-12T00:43:48Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.042823
+[2024-09-12T00:43:49Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1639 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033665
+[2024-09-12T00:43:49Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033098
+[2024-09-12T00:43:49Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1639 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.031544
+[2024-09-12T00:43:49Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.032700
+[2024-09-12T00:43:50Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1664 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.037708
+[2024-09-12T00:43:50Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035480
+[2024-09-12T00:43:51Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1639 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034576
+[2024-09-12T00:43:51Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.032984
+[2024-09-12T00:43:59Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:43:59Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:43:59Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:44:01Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:44:01Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:44:01Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:44:03Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.035699
+[2024-09-12T00:44:03Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.043725
+[2024-09-12T00:44:22Z INFO  actix_web::middleware::logger] 127.0.0.1 "POST /registro HTTP/1.1" 404 0 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000273
+[2024-09-12T00:51:24Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:51:24Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker

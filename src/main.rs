@@ -182,13 +182,40 @@ async fn index(tera: web::Data<Tera>, req: HttpRequest) -> impl Responder {
         return HttpResponse::NotFound().body("Nonce not found");
     }
 
-    let pool = MySqlPool::connect("mysql://diego:11211121@localhost/actix1").await.unwrap();
+    let pool = MySqlPool::connect("mysql://diego:1234@localhost/actix1").await.unwrap();
     let user = User::get_user_by_id(web::Data::new(pool.clone()), 1).await.unwrap();
     ctx.insert("registrodeusuarios", &user);
 
     let rendered = tera.render("index.html", &ctx).unwrap();
     HttpResponse::Ok().content_type("text/html").body(rendered)
 }
+
+#[derive(Debug, serde::Deserialize, serde::Serialize)]
+struct Comentario {
+    id: i32,
+    comentario: String,
+}
+
+async fn obtener_comentarios() -> impl Responder {
+    let pool = MySqlPool::connect("mysql://diego:1234@localhost/actix1")
+        .await
+        .unwrap();
+    let registros = sqlx::query("SELECT * FROM comentarios")
+        .fetch_all(&pool)
+        .await
+        .unwrap();
+    let mut comentarios = Vec::new();
+    for registro in registros {
+        let comentario = Comentario {
+            id: registro.get("id"),
+            comentario: registro.get("comentario"),
+        };
+        comentarios.push(comentario);
+    }
+    HttpResponse::Ok().json(comentarios)
+}
+
+
 
 #[derive(Debug, serde::Deserialize, serde::Serialize)]
 struct User {
@@ -258,6 +285,7 @@ async fn main() {
             .service(web::resource("/auth/login").route(web::get().to(auth_login)))
             .service(web::resource("/auth/callback").route(web::get().to(auth_callback)))
             .service(web::resource("/user").route(web::get().to(get_user_info)))
+            .service(web::resource("/obtener_comentarios").route(web::get().to(obtener_comentarios)))
     })
     .bind("127.0.0.1:8080")
     .unwrap()
