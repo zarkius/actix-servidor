@@ -3154,3 +3154,78 @@
 [2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
 [2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
 [2024-09-12T00:51:24Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:04Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:53:04Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:53:04Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:53:17Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:53:17Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:17Z INFO  actix_server::worker] force shutdown worker, closing 1 connections
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:53:17Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:20Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:54:20Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:54:20Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:54:51Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:51Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:54:53Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T00:54:53Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T00:54:53Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T00:58:02Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T00:58:02Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T00:58:02Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:08Z INFO  actix_server::builder] starting 12 workers
+[2024-09-12T01:04:08Z INFO  actix_server::server] Actix runtime found; starting in Actix runtime
+[2024-09-12T01:04:08Z INFO  actix_server::server] starting service: "actix-web-service-127.0.0.1:8080", workers: 12, listening on: 127.0.0.1:8080
+[2024-09-12T01:04:15Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1693 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.038540
+[2024-09-12T01:04:15Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.034634
+[2024-09-12T01:04:17Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1643 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.041330
+[2024-09-12T01:04:17Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.048034
+[2024-09-12T01:04:19Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET / HTTP/1.1" 200 1668 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.033223
+[2024-09-12T01:04:20Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /favicon.ico HTTP/1.1" 404 0 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.000330
+[2024-09-12T01:04:20Z INFO  actix_web::middleware::logger] 127.0.0.1 "GET /obtener_comentarios HTTP/1.1" 200 63 "http://localhost:8080/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" 0.050547
+[2024-09-12T01:04:26Z INFO  actix_server::server] SIGINT received; starting forced shutdown
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
+[2024-09-12T01:04:26Z INFO  actix_server::accept] accept thread stopped
+[2024-09-12T01:04:26Z INFO  actix_server::worker] shutting down idle worker
